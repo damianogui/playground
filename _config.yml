@@ -1,2 +1,2 @@
 markdown: redcarpet
-exclude: ['README.md']
+exclude: ['README.md','Notes.md']
