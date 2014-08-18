@@ -1,7 +1,7 @@
 ---
 layout: default
 date:   2014-04-06 23:26:12
-photo: whispering-reeds.png
+photo: whispering-reeds.jpg
 caption_header: Whispering Reeds
 caption: Don’t keep your emotions inside
 ---

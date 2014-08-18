@@ -1,7 +1,7 @@
 ---
 layout: default
 date:   2014-04-06 23:26:12
-photo: livesingapore.png
+photo: livesingapore.jpg
 caption_header: LIVE Singapore!
 caption: Real-time data browser
 ---
