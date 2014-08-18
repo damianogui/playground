@@ -10,7 +10,7 @@ Tourists, workers, students, inhabitants. Thousands arriving and departing daily
 
 Esodo – an interactive, biomorphic, infographic installation – represents physically this flow and the related problem of depopulation. It stands in the forecourt of Venice’s railway station, the place where entering and leaving the city is most visible.
 
-<iframe src="//player.vimeo.com/video/44151898?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% vimeo 44151898 %}
 
 People will observe it and over time understand the meaning of Esodo’s movements. They will therefore, we hope, become aware of the consequences for Venice of the human tide which sweeps in and out.
 

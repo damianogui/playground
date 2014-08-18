@@ -8,7 +8,7 @@ caption: Don’t keep your emotions inside
 
 Venice is a theatre: dark streets, gardens seen through gratings, actors and citizens, the daily life of a lively and powerful city glimpsed in obscure corners. It enhances the desire to get lost and drift like sleepy waves in hidden channels – from which rise intimate thoughts and feelings which can only be whispered.
 
-<iframe src="//player.vimeo.com/video/28295678?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% vimeo 28295678 %}
 
 We were inspired by the myth of King Midas. His barber had sworn to tell no one his terrible secret: that the king’s hair hid a pair of huge donkey ears. But the weight of the secret oppressed the barber. So he dug a hole, whispered the secret inside it, then covered it up. But from the hole grew a thick bed of reeds which, with every breath of wind, murmured: “King Midas has donkey ears!”
 

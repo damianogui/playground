@@ -8,7 +8,7 @@ caption: An interactive map of a people’s territory
 
 The aim of Gravity is to add the human factor to the Delta del Po landscape, letting the user discover links and connections between the main activities that compose the Delta identity, such as fishing, agricolture, industries and power supplies, tourism and services.
 
-<iframe src="//player.vimeo.com/video/29311550?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% vimeo 29311550 %}
 
 The application will allow a better understanding of human dynamics, potentials and gaps, divisions and connections damaging or empowering the whole area.
 
