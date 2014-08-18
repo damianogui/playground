@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 date:   2014-04-10 23:26:12
 photo: Speakup.jpg
 caption_header: Speak Up!

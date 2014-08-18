@@ -11,11 +11,18 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/demo.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/component.css" />
-    
+    <script src="{{ site.baseurl }}/js/modernizr.custom.js"></script>
   </head>
   <body>
 
   {{ content }}
 
+    <script src="{{ site.baseurl }}/js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/classie.js"></script>
+    <script src="{{ site.baseurl }}/js/cbpGridGallery.js"></script>
+    <script>
+      new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+    </script> 
   </body>
 </html>
