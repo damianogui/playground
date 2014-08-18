@@ -13,7 +13,7 @@ layout: default
 		{% for post in site.posts %}
 		<li>
 			<figure>
-				<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/>
+				<img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
 				<figcaption>
 					<h3>{{ post.caption_header}}</h3>
 					<p>{{ post.caption }}</p>
@@ -29,7 +29,7 @@ layout: default
 		{% for post in site.posts %}
 		<li>
 			<figure>
-				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
+				<img src="{{ site.baseurl }}/img/large/{{ post.photo }}" alt="img"/>
 				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.content }}</p></figcaption>
 			</figure>
 		</li>
