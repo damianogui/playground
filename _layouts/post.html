@@ -11,11 +11,14 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/demo.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/component.css" />
-    
+
   </head>
   <body>
 
-  {{ content }}
+        <img src="{{ site.baseurl }}/img/large/{{ photo }}" alt="img"/>
+        <figcaption><h3>{{ caption_header}}</h3><p>{{ content }}</p></figcaption>
+      
+
 
   </body>
 </html>

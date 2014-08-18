@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 date: 2014-04-01 23:26:12
 photo: Damiano_Gui.jpg
 caption_header: Damiano Gui
