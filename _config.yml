@@ -1,2 +1,7 @@
+name: Damiano Gui - portfolio
 markdown: redcarpet
-exclude: ['README.md','Notes.md']
+highlighter: pygments
+permalink: /:year/:month/:title/
+author:
+    name: Damiano Gui
+    twitter: #damianogui

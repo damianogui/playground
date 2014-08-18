@@ -1,0 +1,24 @@
+---
+layout: default
+date: 2014-04-06 23:26:12
+photo: esodo.png
+caption_header: Esodo
+caption: Visualizing moltitude
+---
+
+Tourists, workers, students, inhabitants. Thousands arriving and departing daily. This continuous flow keeps Venice economically alive. But little by little the total resident population declines as more people die or move away than are born or settle here.
+
+Esodo – an interactive, biomorphic, infographic installation – represents physically this flow and the related problem of depopulation. It stands in the forecourt of Venice’s railway station, the place where entering and leaving the city is most visible.
+
+<iframe src="//player.vimeo.com/video/44151898?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+
+People will observe it and over time understand the meaning of Esodo’s movements. They will therefore, we hope, become aware of the consequences for Venice of the human tide which sweeps in and out.
+
+![Esodo Front]({{ site.url }}/assets/esodo-front.jpg)
+![Esodo Tail]({{ site.url }}/assets/esodo-tail.jpg)
+![Esodo Alice]({{ site.url }}/assets/esodo-alice.jpg)
+
+
+Teamwork - my tasks: concept generation, 3D sketching, Arduino programming and electronic assembly, video directing and editing, documentation
+
+[More info](http://www.interaction-venice.net/iuav11-12lab2/projects/esodo/)
