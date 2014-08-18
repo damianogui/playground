@@ -1,7 +1,7 @@
 ---
 layout: default
 date:   2014-04-06 23:26:12
-photo: gravity.png
+photo: Gravity.png
 caption_header: Gravity
 caption: An interactive map of a people’s territory
 ---
