@@ -22,7 +22,7 @@ With mobile maps, thanks to the GPS signal that tells us ‘you are here’, we 
 
 Terrarium is the solution to the maps’ ineptitude in making themselves understandable. It allows us to communicate with them. It makes them dynamic and responsive: a terrarium is a place for life, it is a miniaturized environment which reproduces a scaled portion of the world, like a map does, but unlike the map it is meant to be alive.
 
-![Terrarium Map Landscape]({{ site.url }}/assets/terrarium-map.jpg)
+![Terrarium Map Landscape]({{ site.baseurl }}/assets/terrarium-map.jpg)
 
 #Design
 Despite the complexity of the system, the Terrarium mobile app keeps a simple and minimalistic user interface, where all the functions are accessible from a single start screen. Intuitive icons, animated transitions and UI elements such as radial menus and context-aware backgrounds help to quickly focus on the maps and navigate inside the application without efforts.

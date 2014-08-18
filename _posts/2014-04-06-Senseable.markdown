@@ -12,6 +12,6 @@ During summer 2012 I worked as a research intern at [MIT Senseable City Lab](htt
 
 The challenge was to be able to display a huge amount of data from very different sources (public transport, phone calls, social networks, weather etc.), convert them in a unified visual language, and give users an intuitive way to manipulate them through various calculations. The final output was a wide multi-touch surface.
 
-![Live Singapore Map]({{ site.url }}/assets/livesingapore-icons.png)
+![Live Singapore Map]({{ site.baseurl }}/assets/livesingapore-icons.png)
 
 The project has been later developed into the [Data Collider](http://datacollider.io)

@@ -12,7 +12,7 @@ The aim of Gravity is to add the human factor to the Delta del Po landscape, let
 
 The application will allow a better understanding of human dynamics, potentials and gaps, divisions and connections damaging or empowering the whole area.
 
-![Gravity Icons]({{ site.url }}/assets/gravity-icons.png)
+![Gravity Icons]({{ site.baseurl }}/assets/gravity-icons.png)
 
 Gravity is a concept for a browser-based application as a powerful tool for local authorities and inhabitants.
 

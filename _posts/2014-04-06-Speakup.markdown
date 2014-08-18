@@ -18,7 +18,7 @@ This must happen without intermediaries. No trade unions, no government, no jour
 This service helps workers to organize themselves, create a big and enjoyable event, and automatically get the result numbers.
 It creates something that is impossible not to hear.
 
-![Speak Up Screens]({{ site.url }}/assets/speakup-screens.jpg)
+![Speak Up Screens]({{ site.baseurl }}/assets/speakup-screens.jpg)
  
 Teamwork – my tasks: videos shooting and editing, coding the first part of the prototype, final infographics design, process documentation.
 

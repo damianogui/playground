@@ -14,6 +14,6 @@ After being finalist in the Adobe Design Achievement Awards 2011, me and my team
 The app promotes the ADAA 2012 allowing people to express their creativity in a metaphorical way: "Put your wings and fly" is the Awards' slogan, and that's what the app does.
 Everybody can take a picture with his smartphone, overlay a pair of wings on a subject in an augmented reality style and upload his snapshot to facebook. More features will come up later.
 
-![Adobe Wings]({{ site.url }}/assets/adobeWings.jpg)
+![Adobe Wings]({{ site.baseurl }}/assets/adobeWings.jpg)
 
 Teamwork – my tasks: coding the main functions of the app: camera, overlay, image processing, save and upload process, Facebook APIs integration.

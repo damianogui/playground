@@ -14,7 +14,7 @@ Kaleidos is a device that allows direct and seamless communication through natur
 
 <iframe src="//player.vimeo.com/video/23221340?title=0&amp;byline=0&amp;portrait=0" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
-![Kaleidos Model]({{ site.url }}/assets/kaleidos-model.jpg)
+![Kaleidos Model]({{ site.baseurl }}/assets/kaleidos-model.jpg)
 
 Just to introduce the general mood of the device we invented this short story involving the users, playing with the idea of “beyond space, beyond time” and trying to recreate the right atmosphere around this mysterious and timeless object.
 

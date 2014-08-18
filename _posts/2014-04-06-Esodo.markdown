@@ -14,9 +14,9 @@ Esodo – an interactive, biomorphic, infographic installation – represents ph
 
 People will observe it and over time understand the meaning of Esodo’s movements. They will therefore, we hope, become aware of the consequences for Venice of the human tide which sweeps in and out.
 
-![Esodo Front]({{ site.url }}/assets/esodo-front.jpg)
-![Esodo Tail]({{ site.url }}/assets/esodo-tail.jpg)
-![Esodo Alice]({{ site.url }}/assets/esodo-alice.jpg)
+![Esodo Front]({{ site.baseurl }}/assets/esodo-front.jpg)
+![Esodo Tail]({{ site.baseurl }}/assets/esodo-tail.jpg)
+![Esodo Alice]({{ site.baseurl }}/assets/esodo-alice.jpg)
 
 
 Teamwork - my tasks: concept generation, 3D sketching, Arduino programming and electronic assembly, video directing and editing, documentation

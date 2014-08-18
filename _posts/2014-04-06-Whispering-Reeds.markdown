@@ -12,7 +12,7 @@ Venice is a theatre: dark streets, gardens seen through gratings, actors and cit
 
 We were inspired by the myth of King Midas. His barber had sworn to tell no one his terrible secret: that the king’s hair hid a pair of huge donkey ears. But the weight of the secret oppressed the barber. So he dug a hole, whispered the secret inside it, then covered it up. But from the hole grew a thick bed of reeds which, with every breath of wind, murmured: “King Midas has donkey ears!”
 
-![Whispering Reeds Screens]({{ site.url }}/assets/wr-screens.jpg)
+![Whispering Reeds Screens]({{ site.baseurl }}/assets/wr-screens.jpg)
 
 Whispering Reeds is an interactive system, accessed by a mobile device, through which people can “plant a reed” anywhere in Venice to record their thoughts and sensations, and can listen to the “whispering reeds” of others.
  
