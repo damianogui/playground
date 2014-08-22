@@ -10,7 +10,7 @@ layout: default
 	  			{% for post in site.posts %}
 		  		<li>
         			<figure>
-          				<a href="{{ post.url }}">
+          				<a href="{{ site.baseurl }}{{ post.url }}">
 							<img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
 				  				<figcaption>
 					  				<h3>{{ post.title }}</h3>
