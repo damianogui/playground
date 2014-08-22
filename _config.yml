@@ -1,7 +1,7 @@
 name: playground
 markdown: redcarpet
+baseurl: http://damianogui.github.io/
 highlighter: pygments
-baseurl: ""
 permalink: /:year/:month/:title/
 author:
     name: Damiano Gui
