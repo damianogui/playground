@@ -1,6 +1,6 @@
 name: playground
 markdown: redcarpet
-baseurl: ""
+baseurl: /playground
 highlighter: pygments
 permalink: /:year/:month/:title/
 author:
