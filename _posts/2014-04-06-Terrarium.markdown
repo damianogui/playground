@@ -1,9 +1,9 @@
 ---
-layout: default
-date:   2014-04-06 23:26:12
+layout: post
+date:   2014-01-09 23:26:12
 photo: Terrarium.jpg
-caption_header: Terrarium
-caption: living maps
+title: Terrarium
+subtitle: living maps
 ---
 
 Terrarium is my master thesis project. It' s a mobile system for the creation, sharing and use of personalized maps.
@@ -13,7 +13,7 @@ Terrarium is a mobile geographic information system for creating and sharing per
 
 The subjective map it generates represents the core of a system that offers several other functions such as the sharing and cooperative management of locations and maps with other users and the generation of routes based upon personal itineraries.
 
-{% vimeo 63311777 %}
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/63311777?title=0&amp;byline=0&amp;portrait=0"  frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 #Concept
 When we try to translate our own experiential geography on a flat surface we often get puzzled. Maps seem to us hostile, deliberately complex, sometimes cryptic.
@@ -27,7 +27,7 @@ Terrarium is the solution to the maps’ ineptitude in making themselves underst
 #Design
 Despite the complexity of the system, the Terrarium mobile app keeps a simple and minimalistic user interface, where all the functions are accessible from a single start screen. Intuitive icons, animated transitions and UI elements such as radial menus and context-aware backgrounds help to quickly focus on the maps and navigate inside the application without efforts.
 
-{% vimeo 64622169 %}
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/64622169?title=0&amp;byline=0&amp;portrait=0"  frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 #Awards 
 

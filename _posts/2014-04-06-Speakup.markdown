@@ -1,19 +1,19 @@
 ---
-layout: default
-date:   2014-04-10 23:26:12
+layout: post
+date:   2014-01-04 23:26:12
 photo: Speakup.jpg
-caption_header: Speak Up!
-caption: More than noise
+title: Speak Up!
+subtitle: More than noise
 ---
 
 Speak Up! is an application for workers who, subjected to an injustice, wish to share their outrage amongst themselves and to express it to the outside world.
 
-{% vimeo 33103188 %}
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/33103188?title=0&amp;byline=0&amp;portrait=0"  frameborder="0" allowfullscreen="allowfullscreen"></iframe></div> 
 
 In this time of crisis, when demonstrations are ever more difficult to arrange and succeed in getting their message across, we want to create a new way to allow people to express themselves.
 This must happen without intermediaries. No trade unions, no government, no journalists.
 
-{% vimeo 33711018 %}
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/33711018?title=0&amp;byline=0&amp;portrait=0"  frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 
 This service helps workers to organize themselves, create a big and enjoyable event, and automatically get the result numbers.
 It creates something that is impossible not to hear.

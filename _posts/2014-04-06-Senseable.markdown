@@ -1,9 +1,9 @@
 ---
-layout: default
-date:   2014-04-06 23:26:12
+layout: post
+date:   2014-01-08 23:26:12
 photo: livesingapore.jpg
-caption_header: LIVE Singapore!
-caption: Real-time data browser
+title: LIVE Singapore!
+subtitle: Real-time data browser
 ---
 
 During summer 2012 I worked as a research intern at [MIT Senseable City Lab](http://senseable.mit.edu). I collaborated to the LIVE Singapore! project: 'an open platform for the collection, elaboration and distribution of real-time data that reflect urban activity'. My main task was to design an interactive installation for the exhibition of the project in Singapore. 

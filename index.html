@@ -3,47 +3,27 @@ layout: default
 ---
 <div class="container">
 	<header class="clearfix">
-		
 	</header>
 	<div id="grid-gallery" class="grid-gallery">
+    	<section class="grid-wrap">
+	  		<ul class="grid">
+	  			{% for post in site.posts %}
+		  		<li>
+        			<figure>
+          				<a href="{{ post.url }}">
+							<img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
+				  				<figcaption>
+					  				<h3>{{ post.title }}</h3>
+					  				<p>{{ post.subtitle }}</p>
+				  				</figcaption>
+            			</a>
+			 		</figure> 
+			 	</li> 
+			 	{% endfor %}
+			</ul>
+    	</section>
+	</div> <!-- // grid-gallery -->
 
-	<section class="grid-wrap">
-	<ul class="grid">
-		<li class="grid-sizer"></li><!-- for Masonry column width -->
-		{% for post in site.posts %}
-		<li>
-			<figure>
-				<img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
-				<figcaption>
-					<h3>{{ post.caption_header}}</h3>
-					<p>{{ post.caption }}</p>
-				</figcaption>
-			</figure>
-		</li>
-		{% endfor %}
-	</ul>
-	</section><!-- // grid-wrap -->
-
-	<section class="slideshow">
-	<ul>
-		{% for post in site.posts %}
-		<li>
-			<figure>
-				<img src="{{ site.baseurl }}/img/large/{{ post.photo }}" alt="img"/>
-				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.content }}</p></figcaption>
-			</figure>
-		</li>
-		{% endfor %}
-	</ul>
-	<nav>
-		<span class="icon nav-prev"></span>
-		<span class="icon nav-next"></span>
-		<span class="icon nav-close"></span>
-	</nav>
-	<!--- <div class="info-keys icon">Navigate with arrow keys</div> -->
-	</section><!-- // slideshow -->
-
-	</div><!-- // grid-gallery -->
 	<footer>
 		<ul>
 			<li>
@@ -51,15 +31,15 @@ layout: default
 			</li>
 			//
 			<li>
-				<a href="">Twitter</a>
+				<a href="https://twitter.com/damianogui">Twitter</a>
 			</li>
 			//
 			<li>
-				<a href="">Blog</a>
+				<a href="https://medium.com/@damianogui">Blog</a>
 			</li>
 			//
 			<li>
-				<a href="">Contact</a>
+				<a href="mailto:damianogui@gmail.com">Contact</a>
 			</li>
 
 		</ul>

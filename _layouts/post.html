@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }}</title>
+    <meta name="description" content="Damiano Gui - portfolio" />
+    <meta name="keywords" content="interaction design, mobile, interactive, ixd" />
+    <meta name="author" content="Damiano Gui" />
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/post-style.css" />
+
+  </head>
+  <body>
+
+  <!--Pattern HTML-->
+<div class="cover" style="background-image: url('{{ site.baseurl }}/img/large/{{ page.photo }}');">
+        <div class="cover-content">
+            <h3 class="title">
+                {{ page.title }}
+            </h3>
+            <div class="subtitle">{{ page.subtitle }}</div>
+        </div>
+    </div>
+  
+  <div class="post">  
+    <section class="post-content">
+      
+{{ content }}
+
+    </section>
+  </div>
+<footer>
+    <ul>
+      <li>
+        © Damiano Gui 2014
+      </li>
+      //
+      <li>
+        <a href="{{ site.baseurl }}/index.html">Projects</a>
+      </li>
+      //
+      <li>
+        <a href="https://twitter.com/damianogui">Twitter</a>
+      </li>
+      //
+      <li>
+        <a href="https://medium.com/@damianogui">Blog</a>
+      </li>
+      //
+      <li>
+        <a href="mailto:damianogui@gmail.com">Contact</a>
+      </li>
+
+    </ul>
+  </footer>
+
+  </body>
+</html>

@@ -1,0 +1,141 @@
+/* Many thanks to Jon Q for the layout basics http://codepen.io/ItsJonQ/pen/jzaKH*/
+html, body {
+  margin:0;
+}
+/*------ General Layout ------*/
+body, html { 
+  padding: 0; 
+  margin: 0;
+  background: #000000; 
+}
+
+/*-------- Typography ------*/
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color: #fff; 
+}
+
+.title {
+	font-size: 300%;
+	font-weight: 100;
+   text-align: left;
+}
+.subtitle {
+  font-size: 150%;
+}
+
+p {
+  text-align: left;
+}
+
+a {
+  color: #000;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover {
+  color: #fff;
+	background-color: #A2A2A2;
+}
+
+/*-------- Elements style ------*/
+img {
+  width:100%;
+  max-width: 720px;
+}
+
+hr {
+background-color: #A2A2A2;
+border: 0;
+height: 1px;
+}
+/* CSS Trick for responsive iframe (http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php) */
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56%; /* 16:9 */
+	padding-top: 10px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*-------- Layout ------*/
+.cover {
+    color: #fff;
+    min-height:  20em;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cover .cover-content {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+   background: -moz-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+   background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+   background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);;;  
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+
+}
+.cover-content, .post-content {
+    padding: 0 1.5em 0.5em 1.5em;
+
+}
+  
+.cover-content .title, .subtitle, .post-content {
+  max-width: 720px;
+  margin: auto;
+}
+
+footer {
+  color: #A2A2A2;
+  position: absolute;
+  right: 0em;
+  top: -1em;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0.3em 1em 0.5em 0.5em;
+  background: rgb(0, 0, 0); /* The Fallback */
+   background: rgba(0, 0, 0, 0.7);
+  
+}
+
+footer ul li {
+	display: inline-block;
+	font-size: 70%;
+}
+footer ul li a {
+    color: #fff;
+}
+footer ul li a:hover {
+	color: #2D2D2D;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 35em) {
+  footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+  }
+}
+

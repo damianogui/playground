@@ -1,10 +1,9 @@
 ---
-layout: default
-date: 2014-04-01 23:26:12
+layout: post
+date: 2014-01-07 23:26:12
 photo: Damiano_Gui.jpg
-caption_header: Damiano Gui
-caption: Something about me
-renderer: Kramdown
+title: Damiano Gui
+subtitle: Something about me
 ---
 
 I'm an interaction designer. And yes, GUI is my family name, seriously. 
@@ -14,4 +13,4 @@ I got a bachelor in *Modern Literature* because I love reading and thinking, and
 I sometimes [write](https://medium.com/@damianogui), I often [tweet](https://twitter.com/damianogui), and I watch a lot of movies. More about me on [Linkedin](http://www.linkedin.com/pub/damiano-gui/4a/5ab/b99). Feel free to [get in touch](mailto:damianogui@gmail.com)
 
 ----------------------------------
-*We all stand on the shoulder of giants. I built this website with [Jekyll](http://jekyllrb.com) customizing Nii Adjetey Sowah's [Grid Gallery](https://github.com/nadjetey/GridGallery) theme, which is based on Mary Lou's [Google Grid gallery](http://tympanus.net/codrops/2014/03/21/google-grid-gallery/), which is based the [Google Chromebook getting started guide gallery](https://gweb-gettingstartedguide.appspot.com/). You can find the sourcecode [here](https://github.com/damianogui/playground).*
+*We all stand on the shoulder of giants. I built this website with [Jekyll](http://jekyllrb.com) partly customizing Nii Adjetey Sowah's [Grid Gallery](https://github.com/nadjetey/GridGallery) theme, which is based on Mary Lou's [Google Grid gallery](http://tympanus.net/codrops/2014/03/21/google-grid-gallery/), which is based the [Google Chromebook getting started guide gallery](https://gweb-gettingstartedguide.appspot.com/). Feel free to look at the [sourcecode](https://github.com/damianogui/playground) and sketches of the [home page](http://codepen.io/damianogui/pen/yazui?editors=010) and [project pages](http://codepen.io/damianogui/pen/IqleD?editors=110) (kitten alert!).*
