@@ -137,5 +137,8 @@ footer ul li a:hover {
     text-align: center;
     position: fixed;
   }
+    footer ul{
+    padding: 0.5em 0 0.5em 0;
+  }
 }
 
