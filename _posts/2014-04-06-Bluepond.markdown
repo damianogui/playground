@@ -15,7 +15,7 @@ How long will you survive?
 
 <div class="video-wrapper"><iframe <iframe src="//www.youtube.com/embed/v43RgIlA4JA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></iframe></iframe></div>
 
-I developed Blue Pond for fun in my spare time, following a hidden passion for game development I had since I was a kid and only recently rediscovered. I spent a lot of time and had a lot of fun making it. If you want to know the whole story, [read here.](http://www.medium.com/@damianogui)
+I developed Blue Pond for fun in my spare time, following a hidden passion for game development I had since I was a kid and only recently rediscovered. I spent a lot of time and had a lot of fun making it. If you want to know the whole story, [read here.](https://medium.com/@damianogui/the-making-of-blue-pond-6d56a060120d)
 
 The game is available for [iOS](https://itunes.apple.com/us/app/blue-pond/id939850886?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.damianogui.bluepond) and [Amazon](http://www.amazon.com/Damiano-Gui-Blue-Pond/dp/B00PXQNZOE) phones and tablets.
 
