@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="container">
+	<header class="clearfix">
+	</header>
+	<div id="grid-gallery" class="grid-gallery">
+    	<section class="grid-wrap">
+	  		<ul class="grid">
+	  			{% for post in site.posts %}
+		  		<li>
+        			<figure>
+          				<a href="{{ site.baseurl }}{{ post.url }}">
+							<img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
+				  				<figcaption>
+					  				<h3>{{ post.title }}</h3>
+					  				<p>{{ post.subtitle }}</p>
+				  				</figcaption>
+            			</a>
+			 		</figure> 
+			 	</li> 
+			 	{% endfor %}
+			</ul>
+    	</section>
+	</div> <!-- // grid-gallery -->
+
+	<footer>
+		<ul>
+			<li>
+				© Damiano Gui 2014
+			</li>
+			//
+			<li>
+				<a href="https://twitter.com/damianogui">Twitter</a>
+			</li>
+			//
+			<li>
+				<a href="https://medium.com/@damianogui">Blog</a>
+			</li>
+			//
+			<li>
+				<a href="mailto:damianogui@gmail.com">Contact</a>
+			</li>
+
+		</ul>
+	</footer>
+</div>
