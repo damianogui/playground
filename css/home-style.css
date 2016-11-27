@@ -64,22 +64,40 @@ a:hover span {
   background-size: cover;
 }
 
-li:after {
-  opacity: 0;
-  content: attr(alt);
-  color: #242424;
-  font-size: 90%;
-  font-weight: bold;
-  display: inline-block;
-  position: static !important;
-  margin-left: 10px;
-  transition: opacity 0.5s ease-in-out;
-  transform: translateX(20px);
-  transition: all 0.5s ease-out;
-}
+@media only screen and (min-width: 700px) {
+  li:after {
+    opacity: 0;
+    content: attr(alt);
+    color: #242424;
+    font-size: 10pt;
+    font-weight: bold;
+    display: inline-block;
+    position: static !important;
+    margin-left: 10px;
+    transition: opacity 0.5s ease-in-out;
+    transform: translateX(20px);
+    transition: all 0.5s ease-out;
+  }
 
-li:hover:after {
-  opacity: 1;
-  transform: translateX(5px);
+  li:hover:after {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+}
+@media only screen and (max-width: 700px) {
+  li:after {
+    opacity: 1;
+    content: attr(alt);
+    color: #00FFD3;
+    font-size: 11pt;
+    font-weight: bold;
+    display: inline-block;
+    position: static !important;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition: opacity 0.5s ease-in-out;
+    transform: translateX(20px);
+    transition: all 0.5s ease-out;
+  }
 }
 
