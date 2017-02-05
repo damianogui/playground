@@ -1,5 +1,5 @@
 name: Damiano Gui - Portfolio
-markdown: redcarpet
+markdown: kramdown
 baseurl: ""
 highlighter: rouge
 permalink: /:year/:month/:title/
