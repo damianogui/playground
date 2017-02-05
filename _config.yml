@@ -1,7 +1,7 @@
 name: Damiano Gui - Portfolio
 markdown: redcarpet
 baseurl: ""
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:title/
 author:
     name: Damiano Gui
