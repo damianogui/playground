@@ -1,20 +1,23 @@
 html {
   background-color: #00FFD3;
+  padding: 10px 0px 10px 0px;
 }
 
 body {
   margin: 0px;
-  background-image: url(../assets/cubes.png);
+  background-image: url(https://subtlepatterns.com/patterns/cubes.png);
   position: absolute;
   width: 100%;
 }
 
 .page {
-  margin: 10% 10% 2% 10%;
+  margin: 5% 10% 5% 10%;
   color: #262626;
 }
 
-p, li, ul {
+p,
+li,
+ul {
   font-family: 'PT Mono', monospace;
   color: #262626;
   padding: 0px;
@@ -30,8 +33,8 @@ p {
 
 #footer {
   position: relative;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #footer a {
@@ -131,11 +134,15 @@ a:hover span {
     margin: 5%;
   }
 
-  p, li, ul {
+  p,
+  li,
+  ul {
     font-size: 10pt;
   }
 
-  .footer-left, .footer-right, .footer-center {
+  .footer-left,
+  .footer-right,
+  .footer-center {
     position: relative;
     display: block;
     margin-left: 5%;
@@ -158,5 +165,67 @@ a:hover span {
     transform: translateX(5px);
     transition: all 0.5s ease-out;
   }
+}
+#footer a {
+  border-bottom: 0px;
+  background-color: none;
+  transition: all 0.5s ease-out;
+}
+
+#footer a:hover {
+  border-bottom: 0px;
+  background-color: transparent;
+  color: #262626;
+}
+
+#footer li:after {
+  font-family: FontAwesome;
+  opacity: 0;
+  color: #262626;
+  font-size: 12pt;
+  font-weight: bold;
+  display: inline-block;
+  position: relative !important;
+  margin-bottom: 20px;
+  top: -20px;
+  left: -75%;
+  transition: opacity 0.5s ease-in-out;
+  transform: translateY(5px);
+  transition: all 0.5s ease-out;
+}
+
+#footer li:hover:after {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.icon-twitter:after {
+  content: "\f099";
+  width: 0px;
+}
+
+.icon-email:after {
+  content: "\f0e0";
+  width: 0px;
+}
+
+.icon-linkedin:after {
+  content: "\f0e1";
+  width: 0px;
+}
+
+.icon-medium:after {
+  content: "\f23a";
+  width: 0px;
+}
+
+.icon-github:after {
+  content: "\f09b";
+  width: 0px;
+}
+
+.icon-pdf:after {
+  content: "\f15b";
+  width: 0px;
 }
 
