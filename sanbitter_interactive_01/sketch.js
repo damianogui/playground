@@ -19,18 +19,18 @@ var targetX;
 var targetY;
 
 function preload() {
-  sfondo = createImg("../props/sfondo.png");
-  berry3 = createImg("../props/berry3.png");
-  lime = createImg("../props/lime.png");
-  fragola = createImg("../props/fragola.png");
-  cocktail = createImg("../props/cocktail.png");
-  mano = createImg("../props/mano.png");
-  sanbitter = createImg("../props/sanbitter.gif");
-  ghiaccio1 = createImg("../props/ghiaccio1.png");
-  ghiaccio2 = createImg("../props/ghiaccio2.png");
-  bocca = createImg("../props/bocca.png");
-  berry1 = createImg("../props/berry.png");
-  berry2 = createImg("../props/berry.png");
+  sfondo = createImg("/props/sfondo.png");
+  berry3 = createImg("/props/berry3.png");
+  lime = createImg("/props/lime.png");
+  fragola = createImg("/props/fragola.png");
+  cocktail = createImg("/props/cocktail.png");
+  mano = createImg("/props/mano.png");
+  sanbitter = createImg("/props/sanbitter.gif");
+  ghiaccio1 = createImg("/props/ghiaccio1.png");
+  ghiaccio2 = createImg("/props/ghiaccio2.png");
+  bocca = createImg("/props/bocca.png");
+  berry1 = createImg("/props/berry.png");
+  berry2 = createImg("/props/berry.png");
 
 
 }
