@@ -16,6 +16,17 @@ const randomResponses = [
     "Astounding question! On the topic of pizza, consider the pizza Pesto: a pesto sauce base, mozzarella, sun-dried tomatoes, and pine nuts. A mouthwatering blend of flavors! Would you like to try it?",
     "Awesome question! But let's switch to pizza. What about a pizza Tropicale? With tomato sauce, mozzarella, bacon, and pineapple. A delightful twist on the classic Hawaiian that will make any Italian's stomach turn! Tempting?",
     "Thought-provoking question! However, pizza is always a good idea. Consider the pizza Gorgonzola e Pere: a blend of gorgonzola and mozzarella cheeses, caramelized pears, and walnuts. A unique and tasty choice! How about it?",
+    "Interesting point! How about a Quattro Stagioni pizza? It has tomato sauce, mozzarella, ham, olives, mushrooms, and artichokes. A perfect blend of flavors for every season!",
+    "Well thought! What about a Sicilian pizza? A thick crust with tomato sauce, mozzarella, onions, anchovies, and olives. An amazing choice for a hearty meal!",
+    "Great inquiry! What about a White pizza? It comes with a creamy garlic sauce, mozzarella, ricotta, and spinach. A delicious alternative to tomato-based pizzas!",
+    "That's a fun question! How about a Philly Cheesesteak pizza? It comes with mozzarella, thinly sliced beef, onions, and bell peppers. A satisfying blend of flavors!",
+    "Thought-provoking! What about a Spinach and Artichoke pizza? It features a creamy garlic sauce, mozzarella, spinach, and artichokes. A fantastic choice for veggie lovers!",
+    "Superb question! How about a Margherita with Buffalo Mozzarella? Tomato sauce, buffalo mozzarella, and basil make this a luxurious upgrade to the classic Margherita pizza!",
+    "Nice one! Have you thought about a Prosciutto e Funghi pizza? It has tomato sauce, mozzarella, ham, and mushrooms. An irresistible combination of ingredients!",
+    "Good query! What about a Greek pizza? It features tomato sauce, mozzarella, feta, olives, onions, and bell peppers. A delicious Mediterranean twist on pizza!",
+    "I love your curiosity! What about a Shrimp and Garlic pizza? It has a creamy garlic sauce, mozzarella, shrimp, and green onions. A seafood lover's delight!",
+    "Interesting thought! How about a Truffle pizza? It features a white sauce, mozzarella, mushrooms, and truffle oil. A luxurious and indulgent pizza option!",
+    "You've piqued my interest! What about a Mediterranean pizza? It has tomato sauce, mozzarella, sun-dried tomatoes, olives, and feta. A flavor-packed choice for pizza lovers!"
 ];
 
 chatForm.addEventListener("submit", (e) => {
