@@ -33,9 +33,17 @@ h1 {
 }
 
 form {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Add this line */
+    right: 0; /* Add this line */
     display: flex;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
     box-sizing: border-box;
+    margin: 0 auto; /* Add this line */
 }
 
 input {
