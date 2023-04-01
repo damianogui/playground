@@ -1,0 +1,117 @@
+body {
+    font-family: 'Rubik', sans-serif; /* Update the font-family */
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chat-output {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #008441;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #005A2D;
+}
+
+.credits {
+    font-size: 12px;
+    text-align: center;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.credits a {
+    color: #888;
+    text-decoration: underline;
+}
+
+.credits a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 480px) {
+    .chat-container {
+        padding: 10px;
+    }
+    input {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+}
+
+
+.user,
+.bot {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.user {
+    background-color: rgba(245,245,245);
+    justify-content: flex-start;
+}
+
+.bot {
+    background-color: #ffffff;
+    justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.avatar {
+    font-size: 24px;
+    margin-right: 5px;
+   align-items: flex-start;
+}
