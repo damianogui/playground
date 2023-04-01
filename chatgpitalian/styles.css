@@ -35,7 +35,7 @@ h1 {
 
 form {
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
     left: 0; /* Add this line */
     right: 0; /* Add this line */
     display: flex;
