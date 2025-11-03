@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta http-equiv="refresh" content="0; url=/nopetimer/" />
+<title>Redirecting…</title>
+<script>
+  // Fallback client-side redirect for SPA routes
+  (function () {
+    try {
+      var base = '/nopetimer/';
+      if (location.pathname !== base) {
+        location.replace(base);
+      }
+    } catch (e) {
+      // noop
+    }
+  })();
+</script>
